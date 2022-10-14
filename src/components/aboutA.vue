@@ -1,33 +1,37 @@
 <template>
 <div>
-<br>
-<div class="trans"><img src="../assets/longpicture.jpg" alt="" class="longpicture"></div>
-<div class="about">
-<div class="about2">
-<main class="content">
-  <br>
-  <br>
-<div class="toughtext">
-        <h2 class="p2">什么是她扶孕育</h2>
-        <h2 class="p2">-</h2>
-        <br>
-        <p class="p1">她扶孕育是年轻妈妈的孕期管家，由播种网于2022年在广州创立。她扶孕育以“快乐孕育、科学孕育”为目标，为广大女性用户提供全面的知识科普、孕期管理等服务。</p>
-        <br>
-        <p class="p1">她扶孕育，美好孕期的一种新方式。</p>
+<div class="head">
+<header class="header">
+<div class="zujian">
+      <h2></h2>
+      <img src="../assets/title.png" alt="" class="picture-title">
+<div class="list-group">
+      <router-link class="list-group-item" active-class="active" to="/indexA"><a class="current">首页</a></router-link>
+      <router-link class="list-group-about" active-class="active" to="/aboutA"><a class="current-about">关于我们</a></router-link>   
 </div>
-
-<br>
-<br>
-<br>
-<br>
-<div class="content2">
-<h2 class="p3">公司环境</h2>
-<h2 class="p3">——</h2>
+</div>
+</header>
+</div>
+<div class="img">
+<img src="../assets/longpicture.jpg" data-type="pc" class="longpicture">
+</div>
+<div class="about">
+<div class="about-tough">
+<main class="content">
+<div class="toughtext">
+        <div class="tough-title">什么是她抚孕育</div>
+        <div class="text-gang"></div>
+        <p class="text-first">她抚孕育是年轻妈妈的孕期管家，由播种网于2022年在广州创立。她抚孕育以“快乐孕育、科学孕育”为目标，为广大女性用户提供全面的知识科普、孕期管理等服务。
+           她抚孕育，美好孕期的一种新方式。</p>
+</div>
+<div class="content-picture">
+<div class="tough-company">公司环境</div>
+<div class="text-gang-company"></div>
 <div class="company">
-<div style="display:inline-block" class="bozhong11"><img src="../assets/9.png" alt=""  class="bozhong1"></div>
-<div style="display:inline-block" class="bozhong44">
-<div class="bozhong22"><img src="../assets/11.png" alt="" class="bozhong2"></div>
-<div class="bozhong33"><img src="../assets/10.png" alt="" class="bozhong3"></div>
+<div style="display:inline-block" class="tough-left"><img src="../assets/company-hall.png" alt=""  class="company-hall"></div>
+<div style="display:inline-block" class="tough-right">
+<div class="tough-office"><img src="../assets/office.png" alt="" class="office"></div>
+<div class="tough-meditation"><img src="../assets/meditation.png" alt="" class="meditation"></div>
 </div>
 </div>
 <div class="map">
@@ -36,53 +40,47 @@
   </a>
 </div>
 </div>
-<br>
-<br>
-<br>
-<br>
 <div class="toughtext">
-        <h2 class="p2">她扶孕育关心每一位用户与合作伙伴</h2>
-        <h2 class="p2">-</h2>
-        <br>
-        <p class="p1">“如果你在她扶孕育的使用中遇到难以解决的问题，或者任何对平台发展有益的意见及建议，欢迎你直接写信到产品经理的邮箱：tfyy@bozhong.com”</p>
+        <h2 class="tough-title">她扶孕育关心每一位用户与合作伙伴</h2>
+        <h2 class="tough-title">-</h2>
+        <p class="text-tough">如果你在她扶孕育的使用中遇到难以解决的问题，或者任何对平台发展有益的意见及建议，欢迎你直接写信到产品经理的邮箱：“tfyy@bozhong.com”</p>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 </main>
 <nav class="nav"></nav>
 <aside class="ads"></aside>
-
+</div>
+</div>
+<div class="footer">
+<div>
+<span><a href="">粤ICP备19046302号</a></span>
+<span><a href="" class="footer-text">Email@:835304264@qq.com</a></span>
+<span><a href="">隐私政策</a></span>
+<div><img src="../assets/JH.png" alt=""><a href="">粤公网安备44010502001353号</a></div>
+<div><p>build 4,Guangzhou Venture Capital, No. 1601-20,Guangzhou Avenue,Haizhu District,Guangzhou,P.R.C</p></div>
 </div>
 </div>
 </div>
 </template>
 
+
+
 <script>
 export default {
-    name:'adboutA'
+    name:'aboutA'
 }
 </script>
 
 <style>
-
-.trans{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex: 1;
-  width: 100%;
+.picture-title{
+  width: 108px;
+  height: 28.58px;
+  padding-left: 0.7%;
 }
 .about{
   display: flex;
-
+  margin: 0;
 }
-.about2{
+.about-tough{
   display: flex;
   flex: 1;
   justify-content: center; 
@@ -92,70 +90,104 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.content-picture{
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.text-first{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #7F798D;
+    font-size: 0.226rem;
+    text-align: left;
+    line-height: 2;
+}
 .nav, .ads{
-  flex: 0 0 10%;
+  flex: 0 0 19%;
 }
 .nav{
   order: -1;
 }
-.longpicture{
-  width: 100%;
-  height: 30vh;
+.img{
+  padding-top: 17.98px;
 }
-.p1{
+.longpicture{
+    max-width: 100%;
+    width: 100%;
+}
+.text-tough{
   display: flex;
   margin: 0;
   font-size: 150%;
   flex-wrap: wrap;
-
+  padding-bottom: 15px;
 }
-.p2{
-  display: flex;
-  justify-content: center;
-  margin: 0;
+.tough-title{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0.31rem;
+  color: #21163A;
+  position: relative
+}
+.tough-company{
+  text-align: left;
+  padding-top: 20px;
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0.31rem;
+  color: #21163A;
+  position: relative
 }
 .company{
   display: flex;
-  margin: 0;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.company-hall{
+  display: flex;
   height: 100%;
+  border-radius: 5px;
+  max-width: 100%;
+  width: 65%;
 }
-.bozhong1{
+.office{
   display: flex;
-  width: 100%;
-  height: 220%;
-}
-.bozhong2{
-  display: flex;
-  width: 100%;
+  width: 30%;
   height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  padding-bottom: 5%;
 }
-.bozhong3{
+.meditation{
   display: flex;
-  width: 100%;
+  width: 30%;
   height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
 }
-.bozhong11{
+.tough-left{
+
+}
+.tough-right{
+
+}
+.tough-office{
   display: flex;
   width: 100%;
-  height: 200%;
-  padding-right: 1%;
-}
-.bozhong22{
-  display: flex;
-  width: 75%;
-  height: 47%;
+  height: 35%;
   padding-bottom: 3%;
 }
-.bozhong33{
+.tough-meditation{
   display: flex;
-  width: 75%;
-  height: 46%;
+  width: 100%;
+  height: 35%;
 }
-.bozhong44{
-  display: flex;
-  width: 50%;
-}
+
 .map{
   display: flex;
   width: 80%;
@@ -163,12 +195,81 @@ export default {
 }
 .mappng{
   height: 100%;
-  width: 114%;
+  width: 115%;
 }
 .toughtext{
   margin: 0;
   display: flex;
   width: 100%;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.header, .footer{
+  top: 0;
+  flex: 1;
+}
+.zujian{
+  display: flex;
+  justify-content: flex-end;
+}
+.list-group{
+  text-align: right;
+  margin: 0px;
+  padding-right: 25%;
+  padding-top: 30px;
+}
+.list-group-item{
+  padding-right: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+}
+.footer-text{
+  padding-left: 10%;
+  padding-right: 15%;
+}
+.current{
+  color: #7F798D;
+  cursor: default;
+  margin-left: 0.5rem;
+  font-size: 16.5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.current-about{
+  color: #21163A;
+  border-bottom: 2px solid #B68AEA;
+  cursor: default;
+  margin-left: 0.5rem;
+  font-size: 16.5px;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 0.1rem;
+}
+.text-gang{
+  background: linear-gradient(180deg, #5C42FF 0%, #9A5DF9 100%);
+  width: 20px;
+  height: 4px;
+  position: relative;
+  left: 49%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.text-gang-company{
+  background: linear-gradient(180deg, #5C42FF 0%, #9A5DF9 100%);
+  width: 20px;
+  height: 4px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 </style>
+
+
+
