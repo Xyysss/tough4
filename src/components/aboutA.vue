@@ -28,22 +28,21 @@
 <div class="tough-company">公司环境</div>
 <div class="text-gang-company"></div>
 <div class="company">
-<div style="display:inline-block" class="tough-left"><img src="../assets/company-hall.png" alt=""  class="company-hall"></div>
-<div style="display:inline-block" class="tough-right">
-<div class="tough-office"><img src="../assets/office.png" alt="" class="office"></div>
-<div class="tough-meditation"><img src="../assets/meditation.png" alt="" class="meditation"></div>
+<img src="../assets/company-hall.png" alt=""  class="company-hall">
+<div class="right">
+<img src="../assets/office.png" alt="" class="office">
+<img src="../assets/meditation.png" alt="" class="meditation">
 </div>
 </div>
 <div class="map">
-  <a href="https://map.baidu.com/search/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)/@12615021.586347306,2624840.9015206737,19z?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)&c=257&src=0&pn=0&sug=0&l=13&b=(12587411,2613501;12648787,2641693)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1"  target="_blank" >
-<img src="../assets/map.png" alt="" class="mappng">
-  </a>
+  <span class="address">我们在这里：<a target="_blank" href="https://map.baidu.com/search/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)/@12615021.586347306,2624840.9015206737,19z?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)&c=257&src=0&pn=0&sug=0&l=13&b=(12587411,2613501;12648787,2641693)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" class="text-map">广州市海珠区广州大道南1601-20号广州创投小镇4号楼(播种网)</a></span>
+
 </div>
 </div>
 <div class="toughtext">
-        <h2 class="tough-title">她扶孕育关心每一位用户与合作伙伴</h2>
-        <h2 class="tough-title">-</h2>
-        <p class="text-tough">如果你在她扶孕育的使用中遇到难以解决的问题，或者任何对平台发展有益的意见及建议，欢迎你直接写信到产品经理的邮箱：“tfyy@bozhong.com”</p>
+        <div class="tough-title">她扶孕育关心每一位用户与合作伙伴</div>
+        <div class="text-gang"></div>
+        <p class="text-tough">如果你在她扶孕育的使用中遇到难以解决的问题，或者任何对平台发展有益的意见及建议，欢迎你直接写信到产品经理的邮箱：“<a href="mailto:tfyy@bozhong.com" class="email">tfyy@bozhong.com</a>”</p>
 </div>
 </main>
 <nav class="nav"></nav>
@@ -51,12 +50,14 @@
 </div>
 </div>
 <div class="footer">
-<div>
-<span><a href="">粤ICP备19046302号</a></span>
-<span><a href="" class="footer-text">Email@:835304264@qq.com</a></span>
-<span><a href="">隐私政策</a></span>
-<div><img src="../assets/JH.png" alt=""><a href="">粤公网安备44010502001353号</a></div>
-<div><p>build 4,Guangzhou Venture Capital, No. 1601-20,Guangzhou Avenue,Haizhu District,Guangzhou,P.R.C</p></div>
+<div class="footer-main">
+<div class="footer-part">
+<span><a href="" class="footer-text">粤ICP备19046302号</a></span>
+<span><a href="" class="footer-text">Email@:tfyy@bozhong.com</a></span>
+<span><a href="" class="footer-text">隐私政策</a></span>
+<span><a href="" class="footer-text">用户协议</a></span>
+</div>
+<div><a href="" class="footer-gh"><img src="../assets/JH.png" alt="" class="footer-jh">粤公网安备44010502001353号</a></div>
 </div>
 </div>
 </div>
@@ -99,12 +100,12 @@ export default {
     margin: 0;
     padding: 0;
     color: #7F798D;
-    font-size: 0.226rem;
+    font-size: 0.17rem;
     text-align: left;
     line-height: 2;
 }
 .nav, .ads{
-  flex: 0 0 19%;
+  flex: 0 0 30%;
 }
 .nav{
   order: -1;
@@ -119,9 +120,12 @@ export default {
 .text-tough{
   display: flex;
   margin: 0;
-  font-size: 150%;
   flex-wrap: wrap;
   padding-bottom: 15px;
+  color: #7F798D;
+  font-size: 0.17rem;
+  text-align: left;
+  line-height: 2;
 }
 .tough-title{
   text-align: center;
@@ -129,7 +133,7 @@ export default {
   font-size: 18px;
   width: 900px;
   margin: 0 auto;
-  font-size: 0.31rem;
+  font-size: 0.25rem;
   color: #21163A;
   position: relative
 }
@@ -144,37 +148,36 @@ export default {
   position: relative
 }
 .company{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .company-hall{
-  display: flex;
-  height: 100%;
-  border-radius: 5px;
-  max-width: 100%;
-  width: 65%;
+    font-size: 18px;
+    max-width: 100%;
+    width: 65%;
+    margin-right: 1.7%;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
 }
 .office{
-  display: flex;
-  width: 30%;
-  height: 100%;
-  max-width: 100%;
-  border-radius: 5px;
-  padding-bottom: 5%;
+    font-size: 18px;
+    max-width: 100%;
+    border-radius: 5px;
 }
 .meditation{
-  display: flex;
-  width: 30%;
-  height: 100%;
-  max-width: 100%;
-  border-radius: 5px;
+    font-size: 18px;
+    max-width: 100%;
+    margin-top: 5%;
+    vertical-align: bottom;
+    border-radius: 5px;
 }
-.tough-left{
-
-}
-.tough-right{
-
+.right{
+    font-size: 18px;
+    flex: 1;
 }
 .tough-office{
   display: flex;
@@ -189,13 +192,18 @@ export default {
 }
 
 .map{
-  display: flex;
-  width: 80%;
-  height: 20%;
+    margin-top: 0.2rem;
+    background: #fcfcfc;
+    box-shadow: 0px 24px 102px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 0.2rem;
 }
 .mappng{
   height: 100%;
   width: 115%;
+  border-radius: 10px;
 }
 .toughtext{
   margin: 0;
@@ -223,14 +231,39 @@ export default {
   padding-right: 10px;
 }
 .footer{
+  margin-top: 1.5rem;
+  left: 0;
+  width: 100%;
+  color: #7F798D;
+  bottom: 0;
+  top: 89%;
+  padding: 0.2vw 0 1.4vw;
+  font-size: 12px;
+  text-align: center;
+  transition: 0.5s ease-out all;
+}
+.footer-main{
+  display: inline-block;
+  text-align: left;
+  width: 900px;
+}
+.footer-part{
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 200px;
+  justify-content: space-between;
 }
 .footer-text{
-  padding-left: 10%;
-  padding-right: 15%;
+  padding: 1.2vw 0 0.8vw;
+  display: inline-block;
+  margin-right: 30px;
+  color: #7F798D;
+  text-decoration: none;
+}
+.footer-jh{
+  vertical-align: middle
+}
+.footer-gh{
+  color: #7F798D;
+  text-decoration: none;
 }
 .current{
   color: #7F798D;
@@ -268,6 +301,18 @@ export default {
   margin-top: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
+}
+.address{
+  display: inline-block;
+  background: url(../assets/location.png) left center no-repeat;
+  padding-left: 20px;
+}
+.text-map{
+  color: #7F798D;
+  text-decoration: none;
+}
+.email{
+  color: #7F798D;
 }
 </style>
 

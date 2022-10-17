@@ -83,7 +83,7 @@
 
 <script>
 export default {
-    name:'indexA'
+
 }
 </script>
 
