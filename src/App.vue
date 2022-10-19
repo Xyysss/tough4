@@ -1,15 +1,34 @@
 <template>
-<div class="all">
-<div class="body">
-  <router-view></router-view>
-   
+<div class="All">
+<div class="head"></div>
+<div class="Body">
+    <router-view v-if="isRouterAlive"></router-view>
 </div>
 </div>
 </template>
 
 <script>
+import AppHead from './components/ApphHead.vue'
 export default {
  name: 'App',
+ provide () {
+    return {
+      reload: this.reload
+    }
+  },
+  data () {
+    return {
+      isRouterAlive: true
+    }
+  },
+  methods: {
+    reload () {
+      this.isRouterAlive = false
+      this.$nextTick(function () {
+        this.isRouterAlive = true
+      })
+    }
+  }
 }
 //   mounted: function() {
 //     if (location.href.indexOf("#reloaded") == -1) {
@@ -21,7 +40,7 @@ export default {
 </script>
 
 <style>
-.head::before{
+.Head::before{
   content:'';
   position: fixed;
   z-index: -1;
@@ -37,32 +56,57 @@ export default {
   margin: 0;
 }
 
-.all{
+.All{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   height:100%;
 }
-.body{
+.Body{
   width: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.picture-title{
-  width: 150px;
-  height: 40px;
-  position: absolute;
-  left: 20px;
-  top: 30px;
-  width: 170px;
-}
-.container{
+.Container{
   min-width: 1200px;
   max-width: 2048px;
   margin: 0 auto;
   padding: 0.125rem 0.125rem 0;
   display: flex;
 }
-
+.Footer{
+  position:fixed;
+  left: 0;
+  width: 100%;
+  color: #7F798D;
+  bottom: 0;
+  top: 89%;
+  padding: 0.2vw 0 1.4vw;
+  font-size: 12px;
+  text-align: center;
+  transition: 0.5s ease-out all;
+}
+.FooterMain{
+  display: inline-block;
+  text-align: left;
+  width: 900px;
+}
+.FooterPart{
+  display: flex;
+  justify-content: space-between;
+}
+.FooterText{
+  padding: 1.2vw 0 0.8vw;
+  display: inline-block;
+  margin-right: 30px;
+  color: #7F798D;
+  text-decoration: none;
+}
+.FooterJh{
+  vertical-align: middle
+}
+.FooterGh{
+  color: #7F798D;
+  text-decoration: none;
+}
 </style>

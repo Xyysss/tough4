@@ -1,23 +1,25 @@
+import { VueElement } from 'vue';
 import { createRouter,createWebHashHistory } from 'vue-router';
 const routes = [
     {
-      path: '/indexA',
-      component: () => import('../components/indexA.vue'),
+      path: '/',
+      component: () => import('../components/index.vue'),
       meta:{
           title:'首页'
       }
     },
     {
-      path: '/aboutA',
-      component: () => import('../components/aboutA.vue'),
+      path: '/about',
+      component: () => import('../components/AppAbout.vue'),
       meta:{
         title:'关于我们'
     }
     },
-   
   ];
-  const router = createRouter({
+  
+const router = createRouter({
     history: createWebHashHistory(),  
     routes
   });
+  
   export default router;
