@@ -1,11 +1,11 @@
 <template>
-<div>
+<div class="AllAbout">
 <div class="Head"></div>
 <div class="HeadClassAbout">
 <AppHead ref="AppHead"></AppHead>
 </div>
 <div class="Img">
-<img src="../assets/longpicture.jpg" data-type="pc" class="LongPicture">
+<img src="../assets/LongPicture.jpg" data-type="pc" class="LongPicture">
 </div>
 <div class="About">
 <div class="AboutTough">
@@ -15,15 +15,14 @@
 <div class="ToughCompany">公司环境</div>
 <div class="TextGangCompany"></div>
 <div class="Company">
-<img src="../assets/company-hall.png" alt=""  class="CompanyHall">
+<img src="../assets/CompanyHall.png" alt=""  class="CompanyHall">
 <div class="Right">
-<img src="../assets/office.png" alt="" class="Office">
-<img src="../assets/meditation.png" alt="" class="Meditation">
+<img src="../assets/Office.png" alt="" class="Office">
+<img src="../assets/Meditation.png" alt="" class="Meditation">
 </div>
 </div>
 <div class="Map">
   <span class="Address">我们在这里：<a target="_blank" href="https://map.baidu.com/search/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)/@12615021.586347306,2624840.9015206737,19z?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)&c=257&src=0&pn=0&sug=0&l=13&b=(12587411,2613501;12648787,2641693)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" class="TextMap">广州市海珠区广州大道南1601-20号广州创投小镇4号楼(播种网)</a></span>
-
 </div>
 </div>
 <div class="ToughText">
@@ -57,7 +56,9 @@ export default {
 </script>
 
 <style>
-
+.AllAbout{
+  padding-top: 70px;
+}
 .About{
   display: flex;
   margin: 0;
@@ -234,7 +235,7 @@ export default {
 }
 .Address{
   display: inline-block;
-  background: url(../assets/location.png) left center no-repeat;
+  background: url(../assets/Location.png) left center no-repeat;
   padding-left: 20px;
 }
 .TextMap{
@@ -254,6 +255,7 @@ export default {
 .HeadClassAbout{
   position: static;
   width: 100%;
+  padding: 0;
 }
 </style>
 

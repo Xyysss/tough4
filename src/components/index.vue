@@ -8,27 +8,20 @@
 <main class="Content">
 <div class="PartToughInoculaiton">
 <div class="ToughInoculaiton" style="display:inline-block">
-      <img src="../assets/toughyy.png" alt="" class="PicTitle">
+      <img src="../assets/ToughYy.png" alt="" class="PicTitle">
       <p class="TextToughInoculaiton" data-type="pc">你的孕期管家</p>
       <div class="TextGangBirth"></div>
 <div class="Lcon">
-      <a href="https://apps.apple.com/cn/app/flo-me-period-tracker-calendar/id1473558062?l=en" target="_blank"><img src="../assets/apple.png" alt="" class="PictureIos"></a>
-      <a href="https://play.google.com/store/apps/details?id=com.flomeapp.flome" target="_blank" class="Android"><img src="../assets/google.png" alt="" class="PictureAndroid"></a>
+      <a href="https://apps.apple.com/cn/app/flo-me-period-tracker-calendar/id1473558062?l=en" target="_blank"><img src="../assets/Apple.png" alt="" class="PictureIos"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.flomeapp.flome" target="_blank" class="Android"><img src="../assets/Google.png" alt="" class="PictureAndroid"></a>
 </div>
 </div>
 <div class="PhotoInoculaiton" style="display:inline-block">
-      <img src="../assets/tough-index.png" alt="" class="PicInoculaiton">
+      <img src="../assets/ToughIndex.png" alt="" class="PicInoculaiton">
 </div>
 </div>
 <div class="PartToughBaby">
-<div style="display:inline-block">
-<img src="../assets/toughbb.png" alt="" class="PicBaby">
-</div>
-<div class="ToughBaby"  style="display:inline-block">
-      <h2 class="TextContent">看宝宝大小</h2>
-      <h2 class="TextGangBaby"></h2>
-      <font class="Slider">不错过宝宝的每一次成长</font> 
-</div>
+<AppMainContent ref="appmaincontent"></AppMainContent>
 </div>
 
 <div class="PartToughHelp">
@@ -38,12 +31,12 @@
       <font class="Slider">产检要注意什么？看这里</font> 
 </div>
 <div style="display:inline-block">
-<img src="../assets/tough-help.png" alt="" class="PicHelp">
+<img src="../assets/ToughHelp.png" alt="" class="PicHelp">
 </div>
 </div>
 <div class="PartToughBaby">
 <div style="display:inline-block">
-<img src="../assets/tough-food.png" alt="" class="PicFood">
+<img src="../assets/ToughFood.png" alt="" class="PicFood">
 </div>
 <div class="ToughFood"  style="display:inline-block">
       <h2 class="TextContent">饮食助手</h2>
@@ -64,10 +57,11 @@
 <script>
 import AppFooter from './AppFooter.vue'
 import AppHead from './ApphHead.vue'
+import AppMainContent from './AppMainContent.vue'
 export default {
     // inject:['reload'],
     components:{
-      AppFooter,AppHead,
+      AppFooter,AppHead,AppMainContent
     },
     
 }
@@ -83,45 +77,44 @@ export default {
     display: flex;
     flex: 1;
     align-items: center;
-    flex-wrap:wrap;
     justify-content: center;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     padding-top: 180px;
 }
 .ToughInoculaiton{
     padding-right: 23%;
 }
 .PicTitle{ 
-  width: 45vh;
-  height: 11.3vh;
+  width: 93%;
+  height: 90%;
   min-width: 0;
-  padding-bottom: 4%;
+  padding-bottom: 2.4%;
   position: relative;
-  bottom: 10px;
+  bottom: 5%;
 }
 .TextToughInoculaiton{
   line-height: 2;
-  font-size: 300%;
+  font-size: 330%;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 5%;
 }
 .PicInoculaiton{
     position: absolute;
-    right: 6.5%;
-    top: 45%;
-    width: 1050px;
+    right: 6.4%;
+    top: 43%;
+    width: 54%;
     transform: translateY(-50%);
     pointer-events: none;
 }
 .PictureIos{
-  width: 22.7vh;
+  width: 45%;
   height: 7.2vh;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 .PictureAndroid{
-  width: 22.7vh;
+  width: 45%;
   height: 7.2vh;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 .Android{
   padding-left: 20px;
@@ -134,20 +127,6 @@ export default {
   height: 7px;
   margin: 2vw 0 4vw;
 }
-.TextGangBaby{
-  background: #B68AEA;
-  border-radius: 8px;
-  width: 33px;
-  height: 7px;
-  margin: 2.5vw 0;
-}
-.PicBaby{
-  width: 500px;
-  height: 632px;
-  position: relative;
-  right: 10%;
-  bottom: 18px;
-}
 .PartToughBaby{
   flex-wrap: wrap-reverse;
   display: flex;
@@ -155,18 +134,7 @@ export default {
   justify-content: center;
   padding-bottom: 400px;
 }
-.ToughBaby{
-  padding-left: 8%;
-  flex-wrap: wrap-reverse;
-  position: relative;
-  right: 3%;
-  bottom: 25px;
-}
-.TextContent{
-  font-size: 380%;
-  margin: 0;
-  flex-wrap: wrap-reverse;
-}
+
 .PartToughHelp{
   display: flex;
   align-items: center;
@@ -209,45 +177,11 @@ export default {
   color: #7F798D;
   font-size:20px;
 }
-/* .Footer{
-  position:fixed;
-  left: 0;
-  width: 100%;
-  color: #7F798D;
-  bottom: 0;
-  top: 89%;
-  padding: 0.2vw 0 1.4vw;
-  font-size: 12px;
-  text-align: center;
-  transition: 0.5s ease-out all;
-} */
-/* .FooterMain{
-  display: inline-block;
-  text-align: left;
-  width: 900px;
-}
-.FooterPart{
-  display: flex;
-  justify-content: space-between;
-}
-.FooterText{
-  padding: 1.2vw 0 0.8vw;
-  display: inline-block;
-  margin-right: 30px;
-  color: #7F798D;
-  text-decoration: none;
-}
-.FooterJh{
-  vertical-align: middle
-}
-.FooterGh{
-  color: #7F798D;
-  text-decoration: none;
-} */
 .FooterClass{
   position: fixed;
   top: 89%;
   text-align: center;
+  width: 100%;
 }
 .AddressText{
   margin: 0;

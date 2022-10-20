@@ -1,6 +1,6 @@
 <template>
 <div class="ZuJian">
-      <img src="../assets/title.png" alt="" class="PictureTitle">
+      <img src="../assets/Title.png" alt="" class="PictureTitle">
 <div class="ListGroup">
       <router-link  active-class="active" to="/" exact><a class="IndexTitle" exact>首页</a></router-link>
       <router-link active-class="active" to="/about" exact><a class="AboutTitle" exact>关于我们</a></router-link>   
@@ -37,7 +37,6 @@ export default {
 .AboutTitle{
   color: #7F798D;
   cursor: default;
-  margin-left: 0.5rem;
   font-size: 16.5px;
   text-decoration: none;
   display: inline-block;
@@ -57,9 +56,12 @@ export default {
   top: 30px;
 }
 .ListGroup{
+  display: flex;
   text-align: right;
   margin: 0px;
   padding-right: 25%;
-  padding-top: 30px;
+  padding-top: 34px;
+  width: 10%;
+  justify-content: space-around;
 }
 </style>

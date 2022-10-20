@@ -55,7 +55,6 @@ export default {
   padding: 0;
   margin: 0;
 }
-
 .All{
   display: flex;
   min-height: 100vh;
@@ -73,40 +72,5 @@ export default {
   margin: 0 auto;
   padding: 0.125rem 0.125rem 0;
   display: flex;
-}
-.Footer{
-  position:fixed;
-  left: 0;
-  width: 100%;
-  color: #7F798D;
-  bottom: 0;
-  top: 89%;
-  padding: 0.2vw 0 1.4vw;
-  font-size: 12px;
-  text-align: center;
-  transition: 0.5s ease-out all;
-}
-.FooterMain{
-  display: inline-block;
-  text-align: left;
-  width: 900px;
-}
-.FooterPart{
-  display: flex;
-  justify-content: space-between;
-}
-.FooterText{
-  padding: 1.2vw 0 0.8vw;
-  display: inline-block;
-  margin-right: 30px;
-  color: #7F798D;
-  text-decoration: none;
-}
-.FooterJh{
-  vertical-align: middle
-}
-.FooterGh{
-  color: #7F798D;
-  text-decoration: none;
 }
 </style>
