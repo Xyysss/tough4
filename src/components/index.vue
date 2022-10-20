@@ -20,30 +20,26 @@
       <img src="../assets/ToughIndex.png" alt="" class="PicInoculaiton">
 </div>
 </div>
+
 <div class="PartToughBaby">
-<AppMainContent ref="appmaincontent"></AppMainContent>
+<div style="display:inline-block">
+<img src="../assets/ToughBaby.png" alt="" class="PicBaby">
+</div>
+<AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" img="../assets/ToughBaby.png"></AppMainContent>
 </div>
 
 <div class="PartToughHelp">
-<div class="ToughHelp"  style="display:inline-block">
-      <h2 class="TextContent">产检指南</h2>
-      <h2 class="TextGangBaby"></h2>
-      <font class="Slider">产检要注意什么？看这里</font> 
-</div>
+<AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里"></AppMainContent>
 <div style="display:inline-block">
 <img src="../assets/ToughHelp.png" alt="" class="PicHelp">
 </div>
 </div>
+
 <div class="PartToughBaby">
-<div style="display:inline-block">
-<img src="../assets/ToughFood.png" alt="" class="PicFood">
+
+<AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道"></AppMainContent>
 </div>
-<div class="ToughFood"  style="display:inline-block">
-      <h2 class="TextContent">饮食助手</h2>
-      <h2 class="TextGangBaby"></h2>
-      <font class="Slider">能不能吃？一查就知道</font> 
-</div>
-</div>
+
 </main>
 <nav class="nav"></nav>
 <aside class="ads"></aside>
@@ -78,15 +74,14 @@ export default {
     flex: 1;
     align-items: center;
     justify-content: center;
-    padding-bottom: 400px;
-    padding-top: 180px;
+    padding-bottom: 8rem;
+    padding-top: 2.5rem;
 }
 .ToughInoculaiton{
     padding-right: 23%;
 }
 .PicTitle{ 
-  width: 93%;
-  height: 90%;
+  width: 5rem;
   min-width: 0;
   padding-bottom: 2.4%;
   position: relative;
@@ -94,26 +89,26 @@ export default {
 }
 .TextToughInoculaiton{
   line-height: 2;
-  font-size: 330%;
+  font-size: 0.5rem;
   margin: 0;
   padding-bottom: 5%;
 }
 .PicInoculaiton{
     position: absolute;
     right: 6.4%;
-    top: 43%;
-    width: 54%;
+    /* top: 6rem%; */
+    width: 13rem;
     transform: translateY(-50%);
     pointer-events: none;
 }
 .PictureIos{
-  width: 45%;
-  height: 7.2vh;
+  width: 2.7rem;
+  height: 0.88rem;
   border-radius: 15px;
 }
 .PictureAndroid{
-  width: 45%;
-  height: 7.2vh;
+  width: 2.7rem;
+  height: 0.88rem;
   border-radius: 15px;
 }
 .Android{
@@ -123,8 +118,8 @@ export default {
 .TextGangBirth{
   background: #B68AEA;
   border-radius: 8px;
-  width: 33px;
-  height: 7px;
+  width: 0.4rem;
+  height: 0.1rem;
   margin: 2vw 0 4vw;
 }
 .PartToughBaby{
@@ -132,19 +127,24 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 400px;
+  padding-bottom: 5rem;
 }
-
+.PicBaby{
+  width: 6rem;
+  position: relative;
+  right: 10%;
+  bottom: 18px;
+}
 .PartToughHelp{
   display: flex;
   align-items: center;
   flex-wrap:wrap;
   justify-content: center;
-  padding-bottom: 400px;
+  padding-bottom: 5rem;
 }
 .PicHelp{
-  width:500px;
-  height: 559px;
+  width: 6rem;
+  height: 50%;
   position: relative;
   right: 6%;
   bottom: 10px;
@@ -158,11 +158,11 @@ export default {
   bottom: 10px;
 }
 .PicFood{
-  width: 500px;
-  height: 559px;
+  width: 6rem;
+  height: 50%;
   padding-top: 0.3rem;
   position:relative;
-  right: 33%;
+  right: 6%;
 }
 .Content{
   flex: 1;
@@ -175,11 +175,11 @@ export default {
 }
 .Slider{
   color: #7F798D;
-  font-size:20px;
+  font-size:0.4rem;
 }
 .FooterClass{
   position: fixed;
-  top: 89%;
+  top: 87.5%;
   text-align: center;
   width: 100%;
 }
@@ -190,7 +190,6 @@ export default {
   position: fixed;
   width: 100%;
 }
-
 /* //躯干三栏变成自动叠加 */
 @media (max-width: 768px) {
   .Body {

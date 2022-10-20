@@ -1,28 +1,23 @@
 <template>
-<div style="display:inline-block">
-<img src="../assets/ToughBaby.png" alt="" class="PicBaby">
-</div>
 <div class="ToughBaby"  style="display:inline-block">
-      <h2 class="TextContent">看宝宝大小</h2>
+  <div style="display:inline-block">
+<img src={{img}} alt="" class="PicFood">
+</div>
+      <h2 class="TextContent">{{title}}</h2>
       <h2 class="TextGangBaby"></h2>
-      <font class="Slider">不错过宝宝的每一次成长</font> 
+      <font class="Slider">{{content}}</font> 
 </div>
 </template>
 
 <script>
 export default {
-      name:'appmaincontent'
+      name:'appmaincontent',
+      props:['title','content','img']
 }
 </script>
 
 <style>
-.PicBaby{
-  width: 500px;
-  height: 632px;
-  position: relative;
-  right: 10%;
-  bottom: 18px;
-}
+
 .ToughBaby{
   padding-left: 8%;
   flex-wrap: wrap-reverse;
@@ -31,7 +26,7 @@ export default {
   bottom: 25px;
 }
 .TextContent{
-  font-size: 380%;
+  font-size: 0.9rem;
   margin: 0;
   flex-wrap: wrap-reverse;
 }
@@ -42,8 +37,8 @@ export default {
 .TextGangBaby{
   background: #B68AEA;
   border-radius: 8px;
-  width: 33px;
-  height: 7px;
+  width: 0.6rem;
+  height: 0.14rem;
   margin: 2.5vw 0;
 }
 </style>

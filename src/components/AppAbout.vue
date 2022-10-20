@@ -56,9 +56,9 @@ export default {
 </script>
 
 <style>
-.AllAbout{
+/* .AllAbout{
   padding-top: 70px;
-}
+} */
 .About{
   display: flex;
   margin: 0;

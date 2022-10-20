@@ -59,9 +59,10 @@ export default {
   display: flex;
   text-align: right;
   margin: 0px;
-  padding-right: 25%;
-  padding-top: 34px;
+  padding-right: 6rem;
+  padding-top: 0.2rem;
   width: 10%;
   justify-content: space-around;
+  padding-top: 2%;
 }
 </style>
