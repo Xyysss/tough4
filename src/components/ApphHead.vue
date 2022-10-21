@@ -42,10 +42,10 @@ export default {
   display: inline-block;
 }
 .ZuJian{
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
   top: 0px;
-  width: 100%;
+  width: 100%; */
 }
 .PictureTitle{
   width: 104px;
@@ -56,13 +56,21 @@ export default {
   top: 30px;
 }
 .ListGroup{
-  display: flex;
+  /* display: flex;
   text-align: right;
   margin: 0px;
   padding-right: 6rem;
   padding-top: 0.2rem;
-  width: 10%;
   justify-content: space-around;
-  padding-top: 2%;
+  width: 100%; */
+  position: absolute;
+    display: flex;
+    left: 75%;
+    transform: translateX(-50%);
+    top: 0.5rem;
+    text-align: right;
+    z-index: 5;
+    width: 6rem;
+    justify-content: space-evenly;
 }
 </style>

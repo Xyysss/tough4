@@ -10,7 +10,7 @@
 <div class="About">
 <div class="AboutTough">
 <main class="Content">
-<AppText ref="AppText"></AppText>
+<AppIntroduce ref="AppText"></AppIntroduce>
 <div class="ContentPicture">
 <div class="ToughCompany">公司环境</div>
 <div class="TextGangCompany"></div>
@@ -46,19 +46,19 @@
 <script>
 import AppFooter from './AppFooter.vue'
 import AppHead from './ApphHead.vue'
-import AppText from './AppIntroduce.vue'
+import AppIntroduce from './AppIntroduce.vue'
 export default {
     components:{
-      AppFooter,AppHead,AppText
+      AppFooter,AppHead,AppIntroduce
     },
 }
 
 </script>
 
 <style>
-/* .AllAbout{
+.AllAbout{
   padding-top: 70px;
-} */
+}
 .About{
   display: flex;
   margin: 0;
@@ -86,35 +86,36 @@ export default {
     text-align: left;
     line-height: 2;
 }
-.Nav, .Ads{
+.Ads{
   flex: 0 0 30%;
 }
 .Nav{
   order: -1;
+  flex: 0 0 30%;
 }
 .Img{
   padding-top: 17.98px;
 }
 .LongPicture{
     max-width: 100%;
-    width: 100%;
+    width: auto;
+    width:100%;
 }
 .TextTough{
-  display: flex;
   margin: 0;
   flex-wrap: wrap;
   padding-bottom: 15px;
   color: #7F798D;
   font-size: 0.17rem;
-  text-align: left;
+  text-align: center;
   line-height: 2;
+  width: 100%;
 }
 .ToughCompany{
   text-align: left;
   padding-top: 20px;
-  font-size: 18px;
-  width: 900px;
-  margin: 0 auto;
+  font-size: 0.2rem;
+  width: 10rem;
   font-size: 0.31rem;
   color: #21163A;
   position: relative
@@ -130,7 +131,7 @@ export default {
 .CompanyHall{
     font-size: 18px;
     max-width: 100%;
-    width: 65%;
+    width: 11.5rem;
     margin-right: 1.7%;
     border-radius: 5px;
     border-top-right-radius: 10px;
@@ -179,41 +180,6 @@ export default {
 .ListGroupItem{
   padding-right: 10px;
 }
-/* .Footer{
-  margin-top: 1.5rem;
-  left: 0;
-  width: 100%;
-  color: #7F798D;
-  bottom: 0;
-  top: 80%;
-  padding: 0.2vw 0 1.4vw;
-  font-size: 12px;
-  text-align: center;
-  transition: 0.5s ease-out all;
-} */
-/* .FooterMain{
-  display: inline-block;
-  text-align: left;
-  width: 900px;
-}
-.FooterPart{
-  display: flex;
-  justify-content: space-between;
-}
-.FooterText{
-  padding: 1.2vw 0 0.8vw;
-  display: inline-block;
-  margin-right: 30px;
-  color: #7F798D;
-  text-decoration: none;
-}
-.FooterJh{
-  vertical-align: middle
-}
-.FooterGh{
-  color: #7F798D;
-  text-decoration: none;
-} */
 .TextGang{
   background: linear-gradient(180deg, #5C42FF 0%, #9A5DF9 100%);
   width: 20px;
@@ -226,8 +192,8 @@ export default {
 }
 .TextGangCompany{
   background: linear-gradient(180deg, #5C42FF 0%, #9A5DF9 100%);
-  width: 20px;
-  height: 4px;
+  width: 0.3rem;
+  height: 0.05rem;
   position: relative;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -251,6 +217,7 @@ export default {
 }
 .FooterClassAbout{
   position: static;
+  width: 100%;
 }
 .HeadClassAbout{
   position: static;

@@ -66,11 +66,5 @@ export default {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.Container{
-  min-width: 1200px;
-  max-width: 2048px;
-  margin: 0 auto;
-  padding: 0.125rem 0.125rem 0;
-  display: flex;
-}
+
 </style>

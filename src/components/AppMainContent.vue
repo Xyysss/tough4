@@ -1,7 +1,7 @@
 <template>
 <div class="ToughBaby"  style="display:inline-block">
-  <div style="display:inline-block">
-<img src={{img}} alt="" class="PicFood">
+<div style="display:inline-block">
+  <img :src=imageSrc alt="" class="PicFood">
 </div>
       <h2 class="TextContent">{{title}}</h2>
       <h2 class="TextGangBaby"></h2>
@@ -12,7 +12,14 @@
 <script>
 export default {
       name:'appmaincontent',
-      props:['title','content','img']
+      data(){
+        return {
+          imageSrc:{
+
+          }
+        }
+      },
+      props:['title','content','imageSrc']
 }
 </script>
 

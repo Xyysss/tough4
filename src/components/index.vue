@@ -22,10 +22,8 @@
 </div>
 
 <div class="PartToughBaby">
-<div style="display:inline-block">
-<img src="../assets/ToughBaby.png" alt="" class="PicBaby">
-</div>
-<AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" img="../assets/ToughBaby.png"></AppMainContent>
+
+<AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" imageSrc="../assets/ToughBaby.png"></AppMainContent>
 </div>
 
 <div class="PartToughHelp">
@@ -36,7 +34,7 @@
 </div>
 
 <div class="PartToughBaby">
-
+<img src="../assets/ToughFood.png" alt="" class="PicFood">
 <AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道"></AppMainContent>
 </div>
 
@@ -57,7 +55,9 @@ import AppMainContent from './AppMainContent.vue'
 export default {
     // inject:['reload'],
     components:{
-      AppFooter,AppHead,AppMainContent
+      AppFooter,
+      AppHead,
+      AppMainContent
     },
     
 }

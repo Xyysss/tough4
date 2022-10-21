@@ -39,7 +39,7 @@ export default {
 .FooterMain{
   display: inline-block;
   text-align: left;
-  width: 900px;
+  width: 17.5rem;
   padding-left: 1%;
 }
 .FooterPart{
