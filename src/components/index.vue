@@ -22,20 +22,19 @@
 </div>
 
 <div class="PartToughBaby">
-
-<AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" imageSrc="../assets/ToughBaby.png"></AppMainContent>
+<AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" :image="require('@/assets/ToughBaby.png')"></AppMainContent>
 </div>
 
 <div class="PartToughHelp">
-<AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里"></AppMainContent>
+<AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里" :image="require('@/assets/ToughHelp.png')"></AppMainContent>
 <div style="display:inline-block">
-<img src="../assets/ToughHelp.png" alt="" class="PicHelp">
+<!-- <img src="../assets/ToughHelp.png" alt="" class="PicHelp"> -->
 </div>
 </div>
 
 <div class="PartToughBaby">
-<img src="../assets/ToughFood.png" alt="" class="PicFood">
-<AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道"></AppMainContent>
+<!-- <img src="../assets/ToughFood.png" alt="" class="PicFood"> -->
+<AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道" :image="require('@/assets/ToughFood.png')"></AppMainContent>
 </div>
 
 </main>
@@ -52,14 +51,15 @@
 import AppFooter from './AppFooter.vue'
 import AppHead from './ApphHead.vue'
 import AppMainContent from './AppMainContent.vue'
+import img from '../assets/ToughBaby.png'
+import SportPoster from "@/components/AppMainContent.vue";
 export default {
-    // inject:['reload'],
     components:{
       AppFooter,
       AppHead,
-      AppMainContent
+      AppMainContent,
+      img
     },
-    
 }
 // this.reload()
 </script>
@@ -175,7 +175,7 @@ export default {
 }
 .Slider{
   color: #7F798D;
-  font-size:0.4rem;
+  font-size:0.3rem;
 }
 .FooterClass{
   position: fixed;
