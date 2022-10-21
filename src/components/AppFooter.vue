@@ -45,6 +45,7 @@ export default {
 .FooterPart{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .FooterText{
   padding: 1.2vw 0 0.8vw;
