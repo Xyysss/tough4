@@ -1,5 +1,6 @@
 <template>
 <div class="AllAbout">
+  
 <div class="Head"></div>
 <div class="HeadClassAbout">
     <!-- 头部导航栏 -->
@@ -139,6 +140,7 @@ export default {
     font-size: 18px;
     max-width: 100%;
     width: 11.5rem;
+    height: auto;
     margin-right: 1.7%;
     border-radius: 5px;
     border-top-right-radius: 10px;
