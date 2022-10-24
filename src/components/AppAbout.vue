@@ -123,15 +123,11 @@ export default {
   position: relative
 }
 .Company{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.CompanyHall{
-    font-size: 18px;
     max-width: 100%;
     width: 11.5rem;
     height: 9.3rem;
@@ -139,6 +135,15 @@ export default {
     border-radius: 5px;
     border-top-right-radius: 10px;
 }
+/* .CompanyHall{
+    font-size: 18px;
+    max-width: 100%;
+    width: 11.5rem;
+    height: 9.3rem;
+    margin-right: 1.7%;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+} */
 .Office{
     font-size: 18px;
     max-width: 100%;
