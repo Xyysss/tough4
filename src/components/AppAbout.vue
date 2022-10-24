@@ -86,10 +86,8 @@ export default {
   padding-bottom: 70px;
 }
 .TextFirst{
-    margin: 0;
-    padding: 0;
     color: #7F798D;
-    font-size: 0.17rem;
+    font-size: 0.3rem;
     text-align: left;
     line-height: 2;
 }
@@ -109,14 +107,10 @@ export default {
     width:100%;
 }
 .TextTough{
-  margin: 0;
-  flex-wrap: wrap;
-  padding-bottom: 15px;
-  color: #7F798D;
-  font-size: 0.17rem;
-  text-align: center;
-  line-height: 2;
-  width: 100%;
+    color: #7F798D;
+    font-size: 0.3rem;
+    text-align: left;
+    line-height: 2;
 }
 .ToughCompany{
   text-align: left;

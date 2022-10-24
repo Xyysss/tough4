@@ -46,11 +46,8 @@ export default {
   border-radius: 5px;
 }
 .TextFirst{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
     color: #7F798D;
-    font-size: 0.17rem;
+    font-size: 0.3rem;
     text-align: left;
     line-height: 2;
 }
