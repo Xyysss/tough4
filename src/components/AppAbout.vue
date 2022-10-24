@@ -95,11 +95,11 @@ export default {
     line-height: 2;
 }
 .Ads{
-  flex: 0 0 30%;
+  flex: 0 0 15%;
 }
 .Nav{
   order: -1;
-  flex: 0 0 30%;
+  flex: 0 0 15%;
 }
 .Img{
   padding-top: 17.98px;
@@ -140,7 +140,7 @@ export default {
     font-size: 18px;
     max-width: 100%;
     width: 11.5rem;
-    height: auto;
+    height: 9.3rem;
     margin-right: 1.7%;
     border-radius: 5px;
     border-top-right-radius: 10px;
