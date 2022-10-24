@@ -176,9 +176,9 @@ export default {
     background: #fcfcfc;
     box-shadow: 0px 24px 102px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    padding: 0.2rem;
+    padding: 0.3rem;
     text-align: center;
-    font-size: 0.2rem;
+    font-size: 0.4rem;
 }
 .Mappng{
   height: 100%;

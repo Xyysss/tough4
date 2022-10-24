@@ -20,7 +20,7 @@ export default {
 <style>
 .ToughText{
   margin: 0;
-  display: flex;
+  /* display: flex; */
   width: 100%;
   flex-direction: column;
   padding-top: 20px;
@@ -32,7 +32,6 @@ export default {
   font-size: 18px;
   width: 17.7rem;
   margin: 0 auto;
-  font-size: 0.25rem;
   color: #21163A;
   position: relative
 }
