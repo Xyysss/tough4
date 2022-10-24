@@ -12,11 +12,6 @@
 import AppHead from './components/ApphHead.vue'
 export default {
  name: 'App',
- provide () {
-    return {
-      reload: this.reload
-    }
-  },
   data () {
     return {
       isRouterAlive: true
@@ -28,7 +23,10 @@ export default {
       this.$nextTick(function () {
         this.isRouterAlive = true
       })
-    }
+    },
+
+
+
   }
 }
 //   mounted: function() {

@@ -86,7 +86,6 @@ export default {
   padding-bottom: 70px;
 }
 .TextFirst{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     color: #7F798D;
