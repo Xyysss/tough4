@@ -30,7 +30,6 @@
 <div class="PartToughHelp">
 <AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里" :image="require('@/assets/ToughHelp.png')"></AppMainContent>
 <div style="display:inline-block">
-<!-- <img src="../assets/ToughHelp.png" alt="" class="PicHelp"> -->
 </div>
 </div>
     <!-- 第四部分 -->
@@ -194,16 +193,5 @@ export default {
   position: fixed;
   width: 100%;
 }
-/* //躯干三栏变成自动叠加 */
-@media (max-width: 768px) {
-  .Body {
-    flex-direction: column;
-    flex: 1;
-  }
-  .nav,
-  .ads,
-  .content {
-    flex: auto;
-  }
-}
+
 </style>
