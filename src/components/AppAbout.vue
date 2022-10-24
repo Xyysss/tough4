@@ -11,7 +11,8 @@
 </div>
 <div class="About">
 <div class="AboutTough">
-<main class="Content">
+<!-- <main class="Content"> -->
+<div class="Content">
       <!-- 公司介绍 -->
 <AppIntroduce ref="AppText"></AppIntroduce>
       <!-- 公司环境图片 -->
@@ -36,9 +37,10 @@
         <div class="TextGang"></div>
         <p class="TextTough">如果你在她扶孕育的使用中遇到难以解决的问题，或者任何对平台发展有益的意见及建议，欢迎你直接写信到产品经理的邮箱：“<a href="mailto:tfyy@bozhong.com" class="Email">tfyy@bozhong.com</a>”</p>
 </div>
-</main>
-<nav class="Nav"></nav>
-<aside class="Ads"></aside>
+<!-- </main> -->
+<!-- <nav class="Nav"></nav>
+<aside class="Ads"></aside> -->
+</div>
 </div>
 </div>
       <!-- 底部 -->
@@ -77,9 +79,12 @@ export default {
   justify-content: center; 
 }
 .Content{
-  flex: 1;
+  /* flex: 1;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+    padding-top: 2.1rem;
+    width: 17.7rem;
+    margin: 0 auto;
 }
 .ContentPicture{
   padding-top: 40px;
@@ -91,13 +96,13 @@ export default {
     text-align: left;
     line-height: 2;
 }
-.Ads{
-  flex: 0 0 15%;
+/* .Ads{
+  flex: 0 0 20%;
 }
 .Nav{
   order: -1;
-  flex: 0 0 15%;
-}
+  flex: 0 0 20%;
+} */
 .Img{
   padding-top: 17.98px;
 }
@@ -128,14 +133,8 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 100%;
-    width: 11.5rem;
-    height: 9.3rem;
-    margin-right: 1.7%;
-    border-radius: 5px;
-    border-top-right-radius: 10px;
 }
-/* .CompanyHall{
+.CompanyHall{
     font-size: 18px;
     max-width: 100%;
     width: 11.5rem;
@@ -143,7 +142,7 @@ export default {
     margin-right: 1.7%;
     border-radius: 5px;
     border-top-right-radius: 10px;
-} */
+}
 .Office{
     font-size: 18px;
     max-width: 100%;
