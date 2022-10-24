@@ -7,7 +7,7 @@
 </div>
 <div class="Body">
 <main class="Content"> 
-    <!-- 第一部分 -->
+    <!-- 第一部分她扶孕育 -->
 <div class="PartToughInoculaiton">
 <div class="ToughInoculaiton" style="display:inline-block">
       <img src="../assets/ToughYy.png" alt="" class="PicTitle">
@@ -22,17 +22,17 @@
       <img src="../assets/ToughIndex.png" alt="" class="PicInoculaiton">
 </div>
 </div>
-    <!-- 第二部分 -->
+    <!-- 第二部分宝宝 -->
 <div class="PartToughBaby">
 <AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" :image="require('@/assets/ToughBaby.png')"></AppMainContent>
 </div>
-    <!-- 第三部分 -->
+    <!-- 第三部分指南 -->
 <div class="PartToughHelp">
 <AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里" :image="require('@/assets/ToughHelp.png')"></AppMainContent>
 <div style="display:inline-block">
 </div>
 </div>
-    <!-- 第四部分 -->
+    <!-- 第四部分饮食 -->
 <div class="PartToughBaby">
 <!-- <img src="../assets/ToughFood.png" alt="" class="PicFood"> -->
 <AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道" :image="require('@/assets/ToughFood.png')"></AppMainContent>

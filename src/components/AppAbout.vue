@@ -111,6 +111,7 @@ export default {
     font-size: 0.3rem;
     text-align: left;
     line-height: 2;
+    text-size-adjust: none;
 }
 .ToughCompany{
   text-align: left;
