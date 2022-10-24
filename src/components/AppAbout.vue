@@ -2,6 +2,7 @@
 <div class="AllAbout">
 <div class="Head"></div>
 <div class="HeadClassAbout">
+    <!-- 头部导航栏 -->
 <AppHead ref="AppHead"></AppHead>
 </div>
 <div class="Img">
@@ -10,7 +11,9 @@
 <div class="About">
 <div class="AboutTough">
 <main class="Content">
+      <!-- 公司介绍 -->
 <AppIntroduce ref="AppText"></AppIntroduce>
+      <!-- 公司环境图片 -->
 <div class="ContentPicture">
 <div class="ToughCompany">公司环境</div>
 <div class="TextGangCompany"></div>
@@ -21,10 +24,12 @@
 <img src="../assets/Meditation.png" alt="" class="Meditation">
 </div>
 </div>
+      <!-- 地址 -->
 <div class="Map">
   <span class="Address">我们在这里：<a target="_blank" href="https://map.baidu.com/search/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)/@12615021.586347306,2624840.9015206737,19z?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%B5%B7%E7%8F%A0%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%A4%A7%E9%81%93%E5%8D%971601-20%E5%8F%B7%E5%B9%BF%E5%B7%9E%E5%88%9B%E6%8A%95%E5%B0%8F%E9%95%874%E5%8F%B7%E6%A5%BC(%E6%92%AD%E7%A7%8D%E7%BD%91)&c=257&src=0&pn=0&sug=0&l=13&b=(12587411,2613501;12648787,2641693)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" class="TextMap">广州市海珠区广州大道南1601-20号广州创投小镇4号楼(播种网)</a></span>
 </div>
 </div>
+      <!-- 建议渠道 -->
 <div class="ToughText">
         <div class="ToughTitle">她扶孕育关心每一位用户与合作伙伴</div>
         <div class="TextGang"></div>
@@ -35,6 +40,7 @@
 <aside class="Ads"></aside>
 </div>
 </div>
+      <!-- 底部 -->
 <div class="FooterClassAbout">
 <AppFooter ref="AppFooter" class="FooterClassAbout"></AppFooter>
 </div>
@@ -47,9 +53,10 @@
 import AppFooter from './AppFooter.vue'
 import AppHead from './ApphHead.vue'
 import AppIntroduce from './AppIntroduce.vue'
+
 export default {
     components:{
-      AppFooter,AppHead,AppIntroduce
+      AppFooter,AppHead,AppIntroduce    //注册
     },
 }
 

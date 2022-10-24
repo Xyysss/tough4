@@ -2,7 +2,8 @@
 <div class="All">
 <div class="head"></div>
 <div class="Body">
-    <router-view v-if="isRouterAlive"></router-view>
+    <router-view v-if="isRouterAlive"></router-view>              <!-- 路由接受显示    -->
+
 </div>
 </div>
 </template>

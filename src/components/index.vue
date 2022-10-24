@@ -2,10 +2,12 @@
 <div class="All">
 <div class="Head"></div>
 <div class="HeadClass">
+    <!-- 导航栏头部 -->
 <AppHead ref="AppHead"></AppHead>
 </div>
 <div class="Body">
-<main class="Content">
+<main class="Content"> 
+    <!-- 第一部分 -->
 <div class="PartToughInoculaiton">
 <div class="ToughInoculaiton" style="display:inline-block">
       <img src="../assets/ToughYy.png" alt="" class="PicTitle">
@@ -20,18 +22,18 @@
       <img src="../assets/ToughIndex.png" alt="" class="PicInoculaiton">
 </div>
 </div>
-
+    <!-- 第二部分 -->
 <div class="PartToughBaby">
 <AppMainContent ref="appmaincontent" title="看宝宝大小" content="不错过宝宝每一次成长" :image="require('@/assets/ToughBaby.png')"></AppMainContent>
 </div>
-
+    <!-- 第三部分 -->
 <div class="PartToughHelp">
 <AppMainContent ref="appmaincontent" title="产检指南" content="产检要注意什么？看这里" :image="require('@/assets/ToughHelp.png')"></AppMainContent>
 <div style="display:inline-block">
 <!-- <img src="../assets/ToughHelp.png" alt="" class="PicHelp"> -->
 </div>
 </div>
-
+    <!-- 第四部分 -->
 <div class="PartToughBaby">
 <!-- <img src="../assets/ToughFood.png" alt="" class="PicFood"> -->
 <AppMainContent ref="appmaincontent" title="饮食助手" content="能不能吃？一查就知道" :image="require('@/assets/ToughFood.png')"></AppMainContent>
@@ -41,6 +43,7 @@
 <nav class="nav"></nav>
 <aside class="ads"></aside>
 </div>
+    <!-- 底部 -->
 <div class="FooterClass">
 <AppFooter ref="appFooter"></AppFooter>
 </div>
@@ -53,6 +56,7 @@ import AppHead from './ApphHead.vue'
 import AppMainContent from './AppMainContent.vue'
 import img from '../assets/ToughBaby.png'
 import SportPoster from "@/components/AppMainContent.vue";
+
 export default {
     components:{
       AppFooter,
